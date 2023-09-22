@@ -1,0 +1,21 @@
+/*O sinônimo funciona como um apelido, um nome fantasia que podemos atribuir ao componente*/
+
+	CREATE PUBLIC SYNONYM INCLUIR_CLIENTE FOR USER_DEV.INCLUIR_CLIENTE;
+	
+/*
+	Nesse codigo está sendo criado um sinonimo para o user_app
+	Como podemos ver esse sinonimo é publico, mas não significa que ele é geral
+	
+*/
+
+	CREATE PUBLIC SYNONYM ATUALIZAR_CLI_SEG_MERCADO FOR USER_DEV.ATUALIZAR_CLI_SEG_MERCADO;
+	CREATE PUBLIC SYNONYM ATUALIZAR_FATURAMENTO_PREVISTO FOR USER_DEV.ATUALIZAR_FATURAMENTO_PREVISTO;
+	CREATE PUBLIC SYNONYM EXCLUIR_CLIENTE FOR USER_DEV.EXCLUIR_CLIENTE;
+	
+	CREATE PUBLIC SYNONYM CLIENTE FOR USER_DEV.CLIENTE;
+	
+/*
+
+	Agora podemos realizar uma consulta na tabela cliente com o user_app
+
+*/
