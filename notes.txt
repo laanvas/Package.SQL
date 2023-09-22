@@ -1,0 +1,4 @@
+-22/09/23(
+	O Rollback serve para desfazer mudanças feitas depois do começo dessa seção;
+	)
+)
